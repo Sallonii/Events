@@ -1,0 +1,21 @@
+.event-item-card {
+  list-style-type: none;
+  width: 50%;
+}
+.event-img {
+  height: 200px;
+}
+.event-name {
+  color: white;
+  font-size: 25px;
+}
+.event-location {
+  color: white;
+  font-size: 15px;
+}
+.event-button {
+  background-color: transparent;
+  cursor: pointer;
+  height: 200px;
+  border: none;
+}

@@ -1,0 +1,31 @@
+.bg {
+  display: flex;
+}
+.event-container {
+  background-color: #64748b;
+  min-height: 100vh;
+  width: 50%;
+}
+.event-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.event-heading {
+  color: white;
+  align-self: flex-start;
+  margin-left: 40px;
+}
+.events-ul-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.registration-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}

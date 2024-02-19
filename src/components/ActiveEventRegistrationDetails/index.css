@@ -1,0 +1,38 @@
+.initial-text {
+  color: #64748b;
+  margin: 5px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  align-self: flex-start;
+}
+.yet-to-register-image {
+  height: 300px;
+}
+.yet-to-register-para {
+  color: #64748b;
+  font-weight: 700;
+  width: 60%;
+  text-align: center;
+}
+.yet-to-register-btn {
+  color: white;
+  background-color: #0967d2;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.register-status-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.registration-closed-heading {
+  font-weight: 700;
+  color: black;
+}
+.registration-closed-para {
+  text-align: center;
+}
