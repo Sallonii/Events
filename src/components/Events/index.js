@@ -57,14 +57,14 @@ const eventsList = [
 // Write your code here
 
 class Events extends Component {
-  state = {eventStatus: 'INITIAL'}
+  state = {eventStatus: 'INITIAL', activeEventId: ''}
 
-  eventClicked = status => {
-    this.setState({eventStatus: status})
+  eventClicked = (status, id) => {
+    this.setState({eventStatus: status, activeEventId: id})
   }
 
   render() {
-    const {eventStatus} = this.state
+    const {eventStatus, activeEventId} = this.state
     return (
       <div className="bg">
         <div className="event-container">
@@ -75,6 +75,7 @@ class Events extends Component {
                 eachEventDetails={eachItem}
                 key={eachItem.id}
                 eventClicked={this.eventClicked}
+                isActive={eachItem.id === activeEventId}
               />
             ))}
           </ul>
